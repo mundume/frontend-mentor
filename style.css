@@ -1,0 +1,136 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color-scheme: light dark;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.navbar{
+width: 100%;
+height: 50px; 
+display: flex;
+justify-content: space-between;
+
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.navbar-left ul{
+  display: flex;
+  list-style-type: none;
+}
+.navbar-left li{
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.navbar-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  padding: 7px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color:  hsl(0, 0%, 41%);
+  background: transparent;
+  
+}
+.register{
+  padding: 7px;
+  margin-right: 10px;
+  outline: none;
+  border: 1px solid  hsl(0, 0%, 8%);
+  cursor: pointer;
+  font-weight: 700;
+  color:  hsl(0, 0%, 41%);
+  border-radius: 10px;
+  background: transparent;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 700px;
+  width: 100%;
+}
+
+.text-content{
+  
+  margin-left: 120px;
+ 
+ 
+
+}
+
+.text-content h1{
+  font-size: 50px;
+  line-height: 1.2;
+  margin-top: 40px;
+}
+.text-content p{
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.content-btn{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  outline: none;
+  border: 1px solid  hsl(0, 0%, 8%);
+  cursor: pointer;
+  font-weight: 700;
+  color: hsl(0, 0%, 98%) ;
+  border-radius: 10px;
+  background: hsl(0, 0%, 8%);
+}
+.content-btn:hover{
+  background:transparent;
+  color: hsl(0, 0%, 8%);
+}
+.img-container{
+ margin-left: 100px;
+ height: 400px;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+ 
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.icon-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 20px;
+}
