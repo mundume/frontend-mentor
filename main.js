@@ -9,9 +9,14 @@ document.querySelector('#app').innerHTML = `
      <h1>Snap</h1>
     <ul class= 'lists'>
     <button class='dropdown' id="dropdown" onclick=${drop}>features</button>
-    <li>Company<li>
-    <li>Careers<li>
-    <li>About<li>
+    <div class='dropdown-content' id = 'dropdown-content'>
+    <li>Careers</li>
+    <li>Careers</li>
+    <li>About</li>
+    </div>
+    <li>Company</li>
+    <li>Careers</li>
+    <li>About</li>
     <ul>
     </div>
     <div class='navbar-right'>
